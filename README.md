@@ -1,9 +1,9 @@
 # Customer Churn Prediction
 
 ## Project Overview
-- This projects predicts whether a customer is likely to stop using a company's services (ie. 'Churn') based on historical data.
-- It's designed for Telecommunication companies but can be adapted to other industries.
-- The project includes two main components: model training (main.py) and a web application (app.py) for interactive prediction.
+*  This projects predicts whether a customer is likely to stop using a company's services (ie. 'Churn') based on historical data. It's designed for Telecommunication companies but can be adapted to other industries.
+
+* The project includes two main components: model training (main.py) and a web application (app.py) for interactive prediction.
 
 ## Project files
 1. Dataset: Telco Customer Churn sourced from HuggingFace
@@ -68,3 +68,4 @@
 * Columns ignored during training are excluded in prediction inputs to avoid data leakage.
 
         
+
