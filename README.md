@@ -56,7 +56,7 @@
 ## How To Run
 
 1. Ensure Python environment has required packages : pandas, pycaret, streamlit. (if not, install them using pip install <package_name>)
-2. Place the dataset in "Dataset/train.csv.
+2. Place the dataset in "Dataset/train.csv".
 3. Run main.py to train and save the model(first time only).
 4. Run the streamlit app using the command in terminal: streamlit run app.py.
 5. Use the web app interface to input customer data and get churn predictions.
@@ -68,4 +68,5 @@
 * Columns ignored during training are excluded in prediction inputs to avoid data leakage.
 
         
+
 
