@@ -11,12 +11,12 @@
     The dataset contains information about customers of a fictional telecommunications company, including demographic information, services subscribed to, location details, and churn behavior. The dataset combines the information from the original Telco Customer Churn dataset with additional details.
 
     The dataset is structured as a CSV file with 49 columns, each representing a customer attribute. The columns include:
-* Customer Details: Age, Gender, Senior Citizen, Married, Dependents
-* Service Usage: Internet Service, Internet Type, Streaming TV/Music/Movies, Phone Service, Multiple Lines, Device Protection, Online Security/Backup, Premium Tech Support, Unlimited Data
-* Billing & Payments: Monthly Charges, Total Charges, Total Refunds, Payment Method, Paperless Billing, Contract Type, CLTV
-* Churn Information: Churn Label, Churn Score, Churn Reason, Churn Category, Churn Value
-* Location: City, State, Country, Zip Code, Latitude, Longitude, Population
-* Other Features: Tenure in Months, Number of Referrals, Referred a Friend, Satisfaction Score
+   * Customer Details: Age, Gender, Senior Citizen, Married, Dependents
+   *  Service Usage: Internet Service, Internet Type, Streaming TV/Music/Movies, Phone Service, Multiple Lines, Device Protection, Online Security/Backup, Premium Tech Support, Unlimited Data
+   *   Billing & Payments: Monthly Charges, Total Charges, Total Refunds, Payment Method, Paperless Billing, Contract Type, CLTV
+   *   Churn Information: Churn Label, Churn Score, Churn Reason, Churn Category, Churn Value
+   *   Location: City, State, Country, Zip Code, Latitude, Longitude, Population
+   *   Other Features: Tenure in Months, Number of Referrals, Referred a Friend, Satisfaction Score
 
 2. main.py:
     * Libraries Used : 
@@ -68,5 +68,6 @@
 * Columns ignored during training are excluded in prediction inputs to avoid data leakage.
 
         
+
 
 
